@@ -1,5 +1,9 @@
+a.navbar-brand {
+    width: 7.5%;
+}
+
 a.navbar-brand img {
-    width: 108px;
+    width: 100%;
     padding: 5px;
 }
 
@@ -13,6 +17,8 @@ a.navbar-brand img {
 li.nav-item > a { 
     font-size: 13px;
 }
+
+
 
 
 .back-image{
@@ -87,6 +93,22 @@ li.nav-item > a {
     transition: all 200ms ease-in-out;
   }
   
+  .footer-alt {
+    padding: 15px 5px;
+  }
+  
+  .footer-alt ul {
+    display: inline-block;
+  }
 
+  .footer-alt ul li {
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+}
 
+.footer-alt ul li:first-child {
+    padding: 0 24px 0 0;
+}
 
