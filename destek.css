@@ -1,0 +1,39 @@
+.link-support {
+    font-weight: 600 ;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link-support:hover {
+    border-width: 2px; /* Hover durumunda border kalınlığını artır */
+    text-decoration: underline; /* Hover durumunda alt çizgi ekler */
+}
+
+.link-text {
+    font-weight:300 ;
+    padding: 10px 5px 10px 5px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    border-width: 2px; /* Hover durumunda border kalınlığını artır */
+    text-decoration: underline; /* Hover durumunda alt çizgi ekler */
+}
+
+
+.link-text-bold {
+    font-weight:400 ;
+    padding: 10px 10px 0px 0px;
+    margin-top: 10px;
+    color: rgba(128, 128, 128);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-text-bold:hover {
+    border-width: 2px; /* Hover durumunda border kalınlığını artır */
+    text-decoration: underline; /* Hover durumunda alt çizgi ekler */
+}
