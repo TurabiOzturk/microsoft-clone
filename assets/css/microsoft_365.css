@@ -1,0 +1,1560 @@
+* {
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hero-h1 {
+    font-size: 36px;
+}
+.hero-btn {
+    height: 4rem;
+    width: 80%;
+    margin-top: 10px;
+}
+.btn-lg-open{
+    display: none !important;
+} 
+.stick-nav {
+    background-color: #fefefe;
+    width: 100%;
+    height: 3rem;
+    z-index: 999;
+    top: 0;
+    position: sticky !important;
+}
+.stick-nav .btn-dropdown{
+    margin-top: 0.75rem;
+}
+.stick-nav .btn-dropdown{
+    width: 100% !important;
+    text-align: start;
+    background-color: #fefefe !important;
+}
+.stick-nav .dropdown-menu{
+    width: 100% !important;
+}
+.stick-btn{
+    height: 2rem;
+    width: 30%;
+    margin-top: 10px; 
+    display: none !important;
+}
+.nav-tablo{
+    display: none;
+}
+.nav a{
+    text-decoration: none !important;
+    color: #000;
+    
+}
+
+
+.hero-mic {
+    width: 100%;
+    height: 700px;
+    padding-top: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Backgroundimage-1600x680?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain);
+}
+
+.hero-mic .btn-group-lg {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.hero-mic .btn-group-lg .btn {
+    height: 4.5rem;
+    width: 6rem !important;
+    font-size: 12px !important;
+    color: #000;
+    text-align: start;
+    border-radius: 20px;
+    display: block;
+}
+
+.btn-group-lg .btn:hover {
+    border-color: #2a446f;
+    background-color: #fcfcfd;
+}
+
+.nasil-calisir {
+    padding-top: 5rem;
+    background-color: #f4fafd;
+    padding-bottom: 10rem;
+}
+
+.accordion .accordion-button {
+    background-color: #f4fafd !important;
+    padding: 2rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion .accordion-body {
+    background-color: #f4fafd;
+}
+
+.container .bi-chevron-right {
+    font-size: 15px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #000 !important;
+}
+
+.öne-cikan-haberler {
+    background-color: #f4fafd;
+    padding-bottom: 5rem;
+}
+
+.copilot-one {
+    margin-top: 2rem;
+    width: 100%;
+    height: 715px;
+    border-radius: 20px;
+    background-color: #fefefe;
+}
+
+
+.copilot-one .col-6 {
+    padding-left: 3rem;
+}
+
+.copilot-one .col-6-small {
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+.copilot-one .col-6-h3 {
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+.copilot-one .col-6-btn {
+    margin-top: 80px;
+}
+
+.copilot-one .col-6-btn .btn {
+    margin-top: -90px;
+    height: 4rem;
+    margin-left: -1.5rem;
+}
+
+.copilot-one .öne-cikan-haberler-img {
+    width: 97%;
+    height: 470px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.copilot-two {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.copilot-two .copilot-two-one {
+    width: 97%;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #fefefe;
+}
+
+.copilot-two .copilot-two-two {
+    margin-top: 2rem;
+    margin-right: 0rem !important;
+    width: 97%;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #fefefe;
+}
+
+.copilot-two-one-img {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+}
+
+.copilot-two-two-img {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+}
+
+
+.dahil-olan-ozellikler {
+    width: 100%;
+    height: 2100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+}
+
+.dahil-olan-ozellikler-img {
+    width: 565px !important;
+    height: 360px !important;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.overlay__target::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000, #00000000);
+    border-radius: inherit;
+}
+
+.dahil-olan-ozellikler-text {
+    margin-top: 1rem;
+    color: #fff;
+    position: relative;
+}
+
+.dahil-olan-ozellikler-text .btn-secondary {
+    margin-top: 1rem;
+    background-color: #e6e6e4 !important;
+    color: #020202;
+    height: 60px;
+    border-color: #e6e6e4 !important;
+}
+
+.custom {
+    width: 97% !important;
+    height: 220px !important;
+    background-color: #fefefe;
+    border-radius: 30px;
+    margin-top: 1rem !important;
+    margin-left: 0.5rem !important;
+}
+
+.custom-img {
+    width: 30px;
+    margin: 2rem;
+}
+
+.custom-href {
+    font-size: small;
+    color: #000;
+}
+
+.m365-kesfedin {
+    background-color: #f4fafd;
+    width: 100%;
+}
+
+.m365-kesfedin .btn-group-lg {
+    margin-top: 6rem;
+    margin-left: 0rem;
+    height: 30px;
+}
+
+.m365-kesfedin .btn-group-lg .btn {
+    width: 12rem !important;
+    height: 4rem;
+    font-size: 14px !important;
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+.m365-uygulamasi {
+    background-color: #fcf8f5;
+}
+
+.m365-uygulamasi-img {
+    border-radius: 20px;
+    margin: 3rem 0;
+}
+
+.musterilerin-hikayeleri {
+    background-color:
+        #fff6f3;
+}
+
+.carousel-inner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #fefefe;
+}
+
+.carousel-inner .col-6 {
+    padding-left: 2rem;
+}
+
+.col-6 .col-6-one {
+    padding-top: 1rem;
+}
+
+.col-6 .col-6-two {
+    padding-top: 5rem;
+}
+
+.col-6 .col-6-three {
+    padding-top: 3.5rem;
+}
+
+.col-6 .col-6-four {
+    padding-top: 4rem;
+}
+
+.col-6 .col-6-five {
+    padding-top: 3rem;
+}
+
+.carousel-item .musterilerin-hikayeleri-img {
+    height: 330px;
+    width: 205px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.carousel .btn-group-lg {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.carousel-item h2 {
+    font-size: 16px;
+}
+
+.carousel .btn-group-lg .btn {
+    width: 14rem !important;
+    height: 8rem;
+    font-size: 14px !important;
+    color: #000;
+    border-radius: 20px;
+    display: none;
+}
+
+.carousel .btn-group-lg .btn:hover {
+    border-color: #2a446f;
+    background-color: #fcfcfd;
+}
+
+.kullanmaya-baslayin {
+    width: 100%;
+    height: 700px;
+    padding-top: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CTAStacked-Background-1600x642?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+}
+
+.kullanmaya-baslayin .row {
+    margin-top: 2rem;
+    margin-left: 2px;
+    width: 100%;
+    height: 290px;
+    border-radius: 20px;
+    background-color: #fefefe;
+}
+
+.kullanmaya-baslayin .kullanmaya-baslayin-img {
+    height: 270px;
+    width: 235px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.kullanmaya-baslayin .col-6 {
+    padding-left: 1rem;
+}
+
+.kullanmaya-baslayin .col-6-small {
+    margin-top: 20px;
+}
+
+.kullanmaya-baslayin .col-6-h3 {
+    margin-top: 20px;
+}
+
+.kullanmaya-baslayin .col-6-btn {
+    margin-top: 50px;
+}
+
+.kullanmaya-baslayin .col-6-btn .btn {
+    height: 2rem;
+    font-size: 8px;
+}
+
+.takip-edin {
+    padding: 3rem 0;
+}
+
+.deney-btn {
+    font-size: 0.50rem !important;
+}
+
+.nasil-calisir-img {
+    width: 90%;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer li:first-child {
+    font-size: 15px;
+    padding: 36px 0 4px;
+}
+
+footer li {
+    font-size: 11px;
+    padding-top: 8px;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  
+    .stick-nav {
+        background-color: #fefefe;
+        width: 100%;
+        height: 3rem;
+        z-index: 999;
+        top: 0;
+        position: sticky !important;
+    }
+    .stick-nav .btn-dropdown{
+        margin-top: 0.75rem;
+    }
+
+    .mic-logo {
+        margin-left: 1rem;
+    }
+
+    .hero-h1 {
+        font-size: 36px;
+    }
+
+    .hero-btn {
+        height: 4rem;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .bi-person-plus {
+        margin-right: 1rem;
+    }
+
+    .deney-btn {
+        font-size: 0.50rem !important;
+    }
+
+    .hero-mic .btn-group-lg {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .hero-mic .btn-group-lg .btn {
+        height: 4rem;
+        width: 8rem !important;
+        font-size: 12px !important;
+        color: #000;
+        text-align: start;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .copilot-one {
+        margin-top: 2rem;
+        width: 103%;
+        height: 740px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-one .col-6-small {
+        margin-top: 20px;
+        margin-left: 1rem;
+    }
+
+    .copilot-one .col-6-h3 {
+        margin-top: 10px;
+        margin-left: 1rem;
+    }
+
+    .copilot-one .col-6-btn {
+        margin-top: 80px;
+    }
+
+    .copilot-one .öne-cikan-haberler-img {
+        width: 96%;
+        height: 470px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .copilot-two {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    .copilot-two .copilot-two-one {
+        width: 100%;
+        height: 450px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two .copilot-two-two {
+        margin-top: 2rem;
+        margin-right: 0rem !important;
+        width: 100%;
+        height: 450px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two-one-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .copilot-two-two-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .copilot-one .col-6-btn .btn {
+        margin-top: -90px;
+        height: 4rem;
+        margin-left: -1.5rem;
+    }
+
+    .carousel-inner {
+        margin-top: 2rem;
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .carousel-inner .col-6 {
+        padding-left: 2rem;
+    }
+
+    .carousel-item .musterilerin-hikayeleri-img {
+        height: 330px;
+        width: 205px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .carousel-item h2 {
+        font-size: 16px;
+    }
+
+    .carousel .btn-group-lg .btn {
+        width: 14rem !important;
+        height: 8rem;
+        font-size: 14px !important;
+        color: #000;
+        border-radius: 20px;
+        display: none;
+    }
+
+    .col-6 .col-6-one {
+        padding-top: 1rem;
+    }
+
+    .col-6 .col-6-two {
+        padding-top: 4rem;
+    }
+
+    .col-6 .col-6-three {
+        padding-top: 0rem;
+    }
+
+    .col-6 .col-6-four {
+        padding-top: 4rem;
+    }
+
+    .col-6 .col-6-five {
+        padding-top: 2rem;
+    }
+
+    .m365-kesfedin .btn-group-lg {
+        margin-top: 6rem;
+        margin-left: 0rem;
+        height: 30px;
+    }
+
+    .m365-kesfedin .btn-group-lg .btn {
+        width: 15rem !important;
+        height: 4rem;
+        font-size: 14px !important;
+        color: #000;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    .custom {
+        width: 100% !important;
+        height: 220px !important;
+        background-color: #fefefe;
+        border-radius: 30px;
+        margin-top: 1rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .dahil-olan-ozellikler {
+        width: 100%;
+        height: 2100px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+    }
+
+    .dahil-olan-ozellikler-img {
+        width: 830px !important;
+        height: 360px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .overlay__target::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000, #00000000);
+        border-radius: inherit;
+    }
+
+    .dahil-olan-ozellikler-text {
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+    .kullanmaya-baslayin .row {
+        margin-top: 2rem;
+        margin-left: -0.5rem;
+        width: 105%;
+        height: 290px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .kullanmaya-baslayin .kullanmaya-baslayin-img {
+        height: 270px;
+        width: 235px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6 {
+        padding-left: 1rem;
+    }
+
+    .kullanmaya-baslayin .col-6-small {
+        margin-top: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6-h3 {
+        margin-top: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn {
+        margin-top: 50px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn .btn {
+        height: 2rem;
+        font-size: 8px;
+    }
+
+    .nasil-calisir-img {
+        width: 90%;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .stick-nav {
+        background-color: #fefefe;
+        width: 100%;
+        z-index: 999;
+        top: 0;
+        position: sticky !important;
+    }
+    .stick-nav .btn-dropdown{
+        width: 20% !important;
+        text-align: start;
+        margin-top: 0rem;
+        background-color: #fefefe !important;
+    }
+    .stick-nav .dropdown-menu{
+        width: 100% !important;
+    }
+    .stick-btn{
+        font-size: 10px !important;
+        height: 2rem;
+        width: 180px;
+        margin: 5px; 
+        display: block !important;
+    }    
+    .hero-h1 {
+        font-size: 36px;
+    }
+
+    .hero-btn {
+        height: 3rem;
+        width: 80%;
+        margin-top: 10px;
+    }    
+  
+    .bi-person-plus {
+        margin-right: 1rem;
+    }
+
+    .deney-btn {
+        font-size: 0.50rem !important;
+    }
+
+    .hero-mic .btn-group-lg {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .hero-mic .btn-group-lg .btn {
+        height: 4rem;
+        width: 10rem !important;
+        font-size: 12px !important;
+        color: #000;
+        text-align: start;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .nasil-calisir-img {
+        width: 90%;
+        margin-left: 60px;
+        border-radius: 25px;
+        margin-bottom: 0rem;
+    }
+
+    .copilot-one {
+        margin-top: 2rem;
+        width: 100%;
+        height: 800px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-one .col-6-small {
+        margin-top: 20px;
+        margin-left: 1rem;
+    }
+
+    .copilot-one .col-6-h3 {
+        margin-top: 50px;
+        margin-left: 1rem;
+    }
+
+    .copilot-one .col-6-btn {
+        margin-top: 120px;
+        margin-left: 1rem;
+    }
+
+    .copilot-one .öne-cikan-haberler-img {
+        width: 97%;
+        height: 470px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .copilot-two {
+        margin-top: 2rem;
+    }
+
+    .copilot-two .copilot-two-one {
+        width: 100%;
+        height: 520px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two .copilot-two-two {
+        margin-top: 2rem;
+        margin-right: 0rem !important;
+        width: 100%;
+        height: 520px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two-one-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .copilot-two-two-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .copilot-one .col-6-btn .btn {
+        margin-top: -90px;
+        height: 3rem;
+    }
+
+    .carousel-inner {
+        margin-top: 2rem;
+        width: 100%;
+        height: 490px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .carousel-inner .col-6 {
+        padding-left: 3rem;
+    }
+
+    .carousel-item .musterilerin-hikayeleri-img {
+        height: 470px;
+        width: 275px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .carousel-item h2 {
+        font-size: 21px;
+    }
+
+    .carousel .btn-group-lg {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+
+    }
+
+    .carousel .btn-group-lg .btn {
+        width: 8rem !important;
+        height: 6rem;
+        font-size: 14px !important;
+        color: #000;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .col-6 .col-6-one {
+        padding-top: 6rem;
+    }
+
+    .col-6 .col-6-two {
+        padding-top: 12rem;
+    }
+
+    .col-6 .col-6-three {
+        padding-top: 3rem;
+    }
+
+    .col-6 .col-6-four {
+        padding-top: 11rem;
+    }
+
+    .col-6 .col-6-five {
+        padding-top: 6rem;
+    }
+
+    .m365-kesfedin .btn-group-lg {
+        margin-top: 6rem;
+        margin-left: 5rem;
+        height: 30px;
+    }
+
+    .m365-kesfedin .btn-group-lg .btn {
+        width: 15rem !important;
+        height: 4rem;
+        font-size: 14px !important;
+        color: #000;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    .custom {
+        width: 100% !important;
+        height: 220px !important;
+        background-color: #fefefe;
+        border-radius: 30px;
+    }
+
+    .dahil-olan-ozellikler {
+        width: 100%;
+        height: 2100px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+    }
+
+    .dahil-olan-ozellikler-img {
+        width: 830px !important;
+        height: 360px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .overlay__target::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000, #00000000);
+        border-radius: inherit;
+    }
+
+    .dahil-olan-ozellikler-text {
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+    .kullanmaya-baslayin .row {
+        margin-top: 2rem;
+        margin-left: 0rem !important;
+        width: 100%;
+        height: 490px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+
+    .kullanmaya-baslayin .kullanmaya-baslayin-img {
+        height: 470px;
+        width: 300px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6 {
+        padding-left: 2rem;
+    }
+
+    .kullanmaya-baslayin .col-6-small {
+        margin-top: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6-h3 {
+        margin-top: 120px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn {
+        margin-top: 120px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn .btn {
+        height: 3rem;
+        font-size: 11px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    .mic-logo{
+        margin-left: 1rem !important;
+    }
+    .btn-lg-open{
+        display: block !important;
+    } 
+    .stick-nav .btn-dropdown{
+        width: 100px !important;
+        background-color: #fefefe !important;
+    }
+    .stick-nav .dropdown-menu{
+        width: 100% !important;
+        display: none !important;
+    }
+    .stick-btn{
+        font-size: 10px !important;
+        height: 2rem;
+        width: 180px;
+        margin: 5px; 
+        display: block !important;
+    }  
+    .stick-nav {
+        background-color: #fefefe;
+        width: 100%;
+        z-index: 999;
+        top: 0;
+        position: sticky !important;
+    }
+    .nav-tablo{
+        display: block;
+    }
+
+    .hero-h1 {
+        font-size: 48px;
+    }
+
+    .hero-mic {
+        width: 100%;
+        height: 700px;
+        padding-top: 5rem;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Backgroundimage-1600x680?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain);
+    }
+
+    .hero-btn {
+        height: 4rem;
+        width: 14rem;
+    }
+
+    .hero-mic .btn-group-lg {
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+
+    .hero-mic .btn-group-lg .btn {
+        height: 5rem;
+        width: 14rem !important;
+        font-size: 12px !important;
+        color: #000;
+        text-align: start;
+        border-radius: 20px;
+    }
+
+    .bi-person-plus {
+        margin-right: 1rem;
+    }
+
+    .copilot-one {
+        margin-top: 2rem;
+        width: 100%;
+        height: 490px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-one .col-6 {
+        padding-left: 3rem;
+    }
+
+    .copilot-one .col-6-small {
+        margin-top: 20px;
+    }
+
+    .copilot-one .col-6-h3 {
+        margin-top: 150px;
+    }
+
+    .copilot-one .col-6-btn {
+        margin-top: 150px;
+    }
+
+    .copilot-one .öne-cikan-haberler-img {
+        height: 470px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .copilot-two {
+        margin-top: 2rem;
+    }
+
+    .copilot-two .copilot-two-one {
+        width: 48%;
+        height: 440px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two .copilot-two-two {
+        margin-top: 0rem;
+        margin-left: 2rem !important;
+        width: 48%;
+        height: 440px;
+        border-radius: 20px;
+        background-color: #fefefe;
+    }
+
+    .copilot-two-one-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .copilot-two-two-img {
+        width: 100%;
+        margin-top: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .deney-btn {
+        font-size: 0.50rem !important;
+    }
+
+    .copilot-one .col-6-btn .btn {
+        margin-top: -70px;
+        height: 6rem;
+    }
+
+    .carousel .btn-group-lg {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+
+    .carousel-item h2 {
+        font-size: 29px;
+    }
+
+    .carousel-item .musterilerin-hikayeleri-img {
+        height: 470px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .carousel .btn-group-lg .btn {
+        width: 11rem !important;
+        height: 6rem;
+        font-size: 14px !important;
+        color: #000;
+        border-radius: 20px;
+    }
+
+    .col-6 .col-6-one {
+        padding-top: 2rem;
+    }
+
+    .col-6 .col-6-two {
+        padding-top: 11rem;
+    }
+
+    .col-6 .col-6-three {
+        padding-top: 3rem;
+    }
+
+    .col-6 .col-6-four {
+        padding-top: 8rem;
+    }
+
+    .col-6 .col-6-five {
+        padding-top: 2rem;
+    }
+
+    .custom {
+        width: 260px !important;
+        height: 300px !important;
+        background-color: #fefefe;
+        border-radius: 30px;
+        margin-top: 1rem !important;
+        margin-left: 1rem !important;
+    }
+
+    .dahil-olan-ozellikler {
+        width: 100%;
+        height: 1400px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+    }
+
+    .dahil-olan-ozellikler-img {
+        width: 830px !important;
+        height: 360px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .overlay__target::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000, #00000000);
+        border-radius: inherit;
+    }
+
+    .dahil-olan-ozellikler-text {
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+    .kullanmaya-baslayin .kullanmaya-baslayin-img {
+        height: 470px;
+        width: 98%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6 {
+        padding-left: 2rem;
+    }
+
+    .kullanmaya-baslayin .col-6-small {
+        margin-top: 20px;
+    }
+
+    .kullanmaya-baslayin .col-6-h3 {
+        margin-top: 150px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn {
+        margin-top: 100px;
+    }
+
+    .kullanmaya-baslayin .col-6-btn .btn {
+        height: 4rem;
+        font-size: 16px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .mic-logo {
+        margin-left: 1rem !important;
+    }
+
+    .hero-mic {
+        width: 100%;
+        height: 650px;
+        padding-top: 5rem;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Backgroundimage-1600x680?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain);
+    }
+    .stick-nav {
+        background-color: #fefefe;
+        width: 100%;
+        z-index: 999;
+        top: 0;
+        position: sticky !important;
+    }
+    .stick-btn{
+        font-size: 12px !important;
+        height: 2rem;
+        width: 200px;
+        margin: 5px; 
+        display: block !important;
+    } 
+
+
+    .hero-btn {
+        height: 3rem;
+        width: 18rem;
+    }
+
+    .bi-person-plus {
+        margin-right: 1rem;
+    }
+
+    .deney-btn {
+        font-size: 0.75rem !important;
+    }
+
+    .hero-mic .btn-group-lg {
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+
+    }
+
+    .hero-mic .btn-group-lg .btn {
+        width: 17rem !important;
+        height: 5rem;
+        font-size: 14px !important;
+        color: #000;
+        text-align: start;
+        border-radius: 20px;
+    }
+
+    .copilot-one .col-6-btn .btn {
+        margin-top: -20px;
+        height: 4rem;
+    }
+
+    .carousel .btn-group-lg {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+
+    .carousel .btn-group-lg .btn {
+        width: 13rem !important;
+        height: 8rem;
+        font-size: 14px !important;
+        color: #000;
+        border-radius: 20px;
+    }
+
+    .col-6 .col-6-one {
+        padding-top: 1rem;
+    }
+
+    .col-6 .col-6-two {
+        padding-top: 10rem;
+    }
+
+    .col-6 .col-6-three {
+        padding-top: 1rem;
+    }
+
+    .col-6 .col-6-four {
+        padding-top: 8rem;
+    }
+
+    .col-6 .col-6-five {
+        padding-top: 5rem;
+    }
+
+    .custom {
+        width: 260px !important;
+        height: 300px !important;
+        background-color: #fefefe;
+        border-radius: 30px;
+    }
+
+    .dahil-olan-ozellikler {
+        width: 100%;
+        height: 1400px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+    }
+
+    .dahil-olan-ozellikler-img {
+        width: 830px !important;
+        height: 360px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .overlay__target::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000, #00000000);
+        border-radius: inherit;
+    }
+
+    .carousel-item h2 {
+        font-size: 32px;
+    }
+
+    .dahil-olan-ozellikler-text {
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+    .kullanmaya-baslayin .col-6-btn .btn {
+        height: 4rem;
+        font-size: 16px;
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    .mic-logo {
+        margin-left: 1rem !important;
+    }
+
+    .bi-person-plus {
+        margin-right: 10rem;
+    }
+
+    .deney-btn {
+        font-size: 0.75rem !important;
+    }
+
+    .hero-mic .btn-group-lg {
+        margin-top: 6rem;
+        margin-left: 5rem;
+
+    }
+
+    .hero-mic .btn-group-lg .btn {
+        width: 18rem !important;
+        height: 5rem;
+        font-size: 14px !important;
+        color: #000;
+        text-align: start;
+        border-radius: 20px;
+    }
+
+    .stick-nav {
+        background-color: #fefefe;
+        width: 100%;
+        z-index: 999;
+        top: 0;
+        position: sticky !important;
+    }
+    .stick-btn{
+        font-size: 14px !important;
+        height: 2rem;
+        width: 240px;
+        margin: 5px; 
+        display: block !important;
+    } 
+
+    .copilot-one .col-6-btn .btn {
+        margin-top: 0px;
+        height: 3rem;
+    }
+
+    .copilot-two .copilot-two-one {
+        height: 490px;
+    }
+
+    .copilot-two .copilot-two-two {
+        height: 490px;
+    }
+
+    .carousel .btn-group-lg {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+
+    .carousel .btn-group-lg .btn {
+        width: 15rem !important;
+        height: 8rem;
+        font-size: 14px !important;
+        color: #000;
+        border-radius: 20px;
+    }
+
+    .col-6 .col-6-one {
+        padding-top: 5rem;
+    }
+
+    .col-6 .col-6-two {
+        padding-top: 10rem;
+    }
+
+    .col-6 .col-6-three {
+        padding-top: 3rem;
+    }
+
+    .col-6 .col-6-four {
+        padding-top: 10rem;
+    }
+
+    .col-6 .col-6-five {
+        padding-top: 8rem;
+    }
+
+    .custom {
+        width: 310px !important;
+        height: 300px !important;
+        margin: 0.5rem;
+        background-color: #fefefe;
+        border-radius: 30px;
+        margin-top: 0rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .dahil-olan-ozellikler {
+        width: 100%;
+        height: 1000px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Background-600x1080?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=95&fit=constrain);
+    }
+
+    .dahil-olan-ozellikler-img {
+        width: 310px !important;
+        height: 608px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CardGrid-Woman-488x729?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1464&hei=2091&qlt=95&fmt=png-alpha&fit=constrain);
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .overlay__target::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000, #00000000);
+        border-radius: inherit;
+    }
+
+    .dahil-olan-ozellikler-text {
+        margin-top: 15rem;
+        color: #fff;
+    }
+
+    .kullanmaya-baslayin .col-6-btn .btn {
+        height: 4rem;
+        font-size: 16px;
+    }
+
+}

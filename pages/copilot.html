@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copilot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/copilot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+
+  <body class="bg-light">
+    <!-- header-menu -->
+    <header class="bg-light col-lg-9 pt-3" style="position: fixed; z-index: 2">
+      <div class="px-2 navbar navbar-expand-lg navbar-light bg-light">
+        <a href="../index.html">
+          <div class="">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 0H31V31H0V0Z" fill="#F25022"></path>
+              <path d="M65 31H34L34.107 0H65V31Z" fill="#7FBA00"></path>
+              <path d="M0 34H31V65H0V34Z" fill="#00A4EF"></path>
+              <path d="M34 34H65V65H34V34Z" fill="#FFB900"></path>
+            </svg>
+          </div>
+        </a>
+        <div class="">
+          <ul class="navbar-nav" style="font-size: 0.8em">
+            <!-- <li class="nav-item active px-4 " id="copilot">
+            <a class="nav-link" href="#">Copilot</a>
+          </li> -->
+            <li class="" style="width: 100%; font-weight: bold">
+              <div
+                class="py-2 px-4 d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="px-2 d-flex flex-row align-items-center"
+                  style="border-bottom: 3px solid blue"
+                >
+                  <img
+                    class="icon p-1"
+                    draggable="false"
+                    src="https://copilot.microsoft.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg"
+                    alt="Designer"
+                    style="width: 25px; height: 25px"
+                  />
+                  <span class="name-other" appearance="body-1"> Copilot </span>
+                </div>
+              </div>
+            </li>
+            <li class="" style="width: 100%">
+              <div
+                class="py-2 px-2 d-flex align-items-center justify-content-center"
+              >
+                <div class="px-2 d-flex flex-row align-items-center">
+                  <img
+                    class="icon p-1"
+                    draggable="false"
+                    src="https://www.svgrepo.com/show/485720/file2.svg"
+                    alt="Designer"
+                    style="width: 35px; height: 35px; color: blue"
+                  />
+                  <span class="" appearance="body-1"> Not defteri </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-8" style="position: absolute; right: 0%">
+          <div class="d-flex justify-content-end px-3 align-items-center">
+            <a role="link" id="copilot_app_cta" class="b_hide" href="#">
+              <span class="cta_txt">Uygulamayı edinin</span>
+            </a>
+            <a class="btn btn-outline-secondary language" href="">English</a>
+            <a class="btn btn-outline-secondary login" href=""> Oturum Aç </a>
+            <nav class="navbar">
+              <div class="container-fluid">
+                <button
+                  class="hamburger-menu"
+                  type="button"
+                  data-mdb-collapse-init
+                  data-mdb-target="#navbarToggleExternalContent"
+                  aria-controls="navbarToggleExternalContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+              </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-body-tertiary shadow-3 p-4">
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block border-bottom m-0"
+                >
+                  Link 1
+                </button>
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block border-bottom m-0"
+                >
+                  Link 2
+                </button>
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block m-0"
+                >
+                  Link 3
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="dropdown">
+                <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                  <strong>mdo</strong>
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+              </div> -->
+      </div>
+    </header>
+
+    <!-- side-menu -->
+    <div
+      class="d-flex flex-column p-3 bg-light col-lg-3 sidebar mt-2"
+      style="width: 25%; position: fixed; right: 0%; top: 0%"
+    >
+      <div class="col-lg-12 border-bottom side-title">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-md-0 ms-md-0 link-dark text-decoration-none"
+        >
+          <span class="">Sohbetler</span>
+        </a>
+      </div>
+
+      <span class="pt-3 pb-2 gpt-title">Copilot GPT' leri</span>
+
+      <div class="col-lg-12 rounded p-1 gpt-menu">
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="col-lg-12 d-flex flex-column" style="width: 100%">
+            <div class="col-lg-12 btn btn-outline-secondary btn-side-1 py-2">
+              <div class="d-flex flex-row align-items-center">
+                <img
+                  class="icon p-1"
+                  draggable="false"
+                  src="https://r.bing.com/rp/R8ErSC7kK_3o4eRM-pP2JlReVkE.png"
+                  alt="Copilot"
+                  style="width: 25px; height: 25px"
+                />
+                <span is="cib-span" class="name" appearance="body-1">
+                  Copilot
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="col-lg-12 d-flex flex-column" style="width: 100%">
+            <div class="col-lg-12 py-2 btn-side-other">
+              <div
+                class="d-flex flex-row align-items-center d-flex justify-content-start"
+              >
+                <img
+                  class="icon p-1"
+                  draggable="false"
+                  src="https://r.bing.com/rp/GrxBb8TfmztOnB55R-l2Fn8rRu0.png"
+                  alt="Designer"
+                  style="width: 25px; height: 25px"
+                />
+                <span class="name-other" appearance="body-1"> Designer </span>
+              </div>
+            </div>
+          </li>
+          <li class="col-lg-12 d-flex flex-column" style="width: 100%">
+            <div class="col-lg-12 py-2 btn-side-other">
+              <div
+                class="d-flex flex-row align-items-center d-flex justify-content-start"
+              >
+                <img
+                  class="icon p-1"
+                  draggable="false"
+                  src="https://r.bing.com/rp/EV_iKB9rf4Eje0Smm4-6BF6f_-8.png"
+                  alt="Vacation planner"
+                  style="width: 25px; height: 25px"
+                />
+                <span class="name-other" appearance="body-1">
+                  Vacation planner
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="col-lg-12 d-flex flex-column" style="width: 100%">
+            <div class="col-lg-12 py-2 btn-side-other">
+              <div
+                class="d-flex flex-row align-items-center d-flex justify-content-start"
+              >
+                <img
+                  class="icon p-1"
+                  draggable="false"
+                  src="https://r.bing.com/rp/zudd4mO0yVlfOcXNYCipl5zZx8U.png"
+                  alt="Cooking assistant"
+                  style="width: 25px; height: 25px"
+                />
+                <span class="name-other" appearance="body-1">
+                  Cooking assistant
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="col-lg-12 d-flex flex-column" style="width: 100%">
+            <div class="col-lg-12 py-2 btn-side-other">
+              <div
+                class="d-flex flex-row align-items-center d-flex justify-content-start"
+              >
+                <img
+                  class="icon p-1"
+                  draggable="false"
+                  src="https://r.bing.com/rp/pdV1tnDAgmqj-A-_LC_QIJSbS0A.png"
+                  alt="Fitness trainer"
+                  style="width: 25px; height: 25px"
+                />
+                <span class="name-other" appearance="body-1">
+                  Fitness trainer
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- container -->
+    <div
+      class="container-fluid col-lg-9 d-flex flex-column justify-content-start m-auto"
+      style="position: absolute; height: auto"
+    >
+      <!-- HEAD -->
+      <div
+        class="d-flex flex-column justify-content-center col-lg-6 m-auto head copilot-h1"
+      >
+        <div
+          class="d-flex flex-row align-items-center justify-content-center m-auto"
+        >
+          <img
+            class="icon p-1"
+            draggable="false"
+            src="https://r.bing.com/rp/R8ErSC7kK_3o4eRM-pP2JlReVkE.png"
+            alt="Copilot"
+            style="width: 100%; height: 100%"
+          />
+          <h1>Copilot</h1>
+        </div>
+        <p class="d-flex flex-column text-center">
+          Günlük yapay zeka eşlikçiniz
+        </p>
+      </div>
+
+      <!-- SLIDER -->
+      <div
+        class="b_ziTileCont b_wlcmCont col-lg-12 m-auto"
+        data-zi-iid="discoverbing.5060"
+      >
+        <script type="text/javascript" data-bing-script="1">
+          //<![CDATA[
+          define("shared", ["require", "exports"], function (n, t) {
+            function s(n, t) {
+              for (var r = n.length, i = 0; i < r; i++) t(n[i]);
+            }
+            function r(n) {
+              for (var i = [], t = 1; t < arguments.length; t++)
+                i[t - 1] = arguments[t];
+              return function () {
+                n.apply(null, i);
+              };
+            }
+            function u(n) {
+              i && event && (event.returnValue = !1);
+              n && typeof n.preventDefault == "function" && n.preventDefault();
+            }
+            function f(n) {
+              i && event && (event.cancelBubble = !0);
+              n &&
+                typeof n.stopPropagation == "function" &&
+                n.stopPropagation();
+            }
+            function e(n, t, i) {
+              for (
+                var r = 0;
+                n && n.offsetParent && n != (i || document.body);
+
+              )
+                (r += n["offset" + t]), (n = n.offsetParent);
+              return r;
+            }
+            function o() {
+              return new Date().getTime();
+            }
+            function h(n) {
+              return i ? event : n;
+            }
+            function c(n) {
+              return i ? (event ? event.srcElement : null) : n.target;
+            }
+            function l(n) {
+              return i ? (event ? event.fromElement : null) : n.relatedTarget;
+            }
+            function a(n) {
+              return i ? (event ? event.toElement : null) : n.relatedTarget;
+            }
+            function v(n, t, i) {
+              while (n && n != (i || document.body)) {
+                if (n == t) return !0;
+                n = n.parentNode;
+              }
+              return !1;
+            }
+            function y(n) {
+              window.location.href = n;
+            }
+            function p(n, t) {
+              n &&
+                ((n.style.filter = t >= 100 ? "" : "alpha(opacity=" + t + ")"),
+                (n.style.opacity = t / 100));
+            }
+            t.__esModule = !0;
+            t.getTime =
+              t.getOffset =
+              t.stopPropagation =
+              t.preventDefault =
+              t.wrap =
+              t.forEach =
+                void 0;
+            var i = sb_ie;
+            t.forEach = s;
+            t.wrap = r;
+            t.preventDefault = u;
+            t.stopPropagation = f;
+            t.getOffset = e;
+            t.getTime = o;
+            window.sj_b = document.body;
+            window.sb_de = document.documentElement;
+            window.sj_wf = r;
+            window.sj_pd = u;
+            window.sj_sp = f;
+            window.sj_go = e;
+            window.sj_ev = h;
+            window.sj_et = c;
+            window.sj_mi = l;
+            window.sj_mo = a;
+            window.sj_we = v;
+            window.sb_gt = o;
+            window.sj_so = p;
+            window.sj_lc = y;
+          });
+          //]]>
+        </script>
+
+        <script type="text/javascript" data-bing-script="1">
+          //<![CDATA[
+          var ziFreBoldConfig = {
+            enAutoRotate: true,
+            enHeaderReducedMargin: false,
+            bCardCacheOpts: "",
+            sunoBCardCacheOpts: "B020AA22,014CB21D",
+            enSBSunoCard: false,
+            enableTwoTimeSendQuery: false,
+            isMSAAuth: false,
+            enSunoCacheSignedIn: false,
+            enAutoRttFix: false,
+            enableA11YFix: true,
+            tileLogPosition: "left-adj,right-adj,center",
+            enSunoFromBE: true,
+            enSunoGrtFromBE: false,
+            sunoPluginId: "",
+            sunoOptionSets: "",
+            sunoUnsignedGreeting: "",
+            sunoSignedGreeting: "",
+            enZiKeyboardNav: false,
+            useSidePanelToChangePersona: true,
+            enableMicaCard: false,
+          };
+          //]]>
+        </script>
+        <script
+          type="text/javascript"
+          src="https://r.bing.com/rp/dmmGQm85QAxztSm2ggP-ZjCkFHw.br.js"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://r.bing.com/rp/HBisMh4hr-IrIkh9AO20bGJnW5I.br.js"
+          crossorigin="anonymous"
+        ></script>
+        <div id="sydChatFreTemplate" data-priority="2">
+          <div class="zpcarousel">
+            <div
+              id="slideexp0_F70127c"
+              class="b_slideexp"
+              data-partnerinfo=""
+              data-control-id="slideexp0_F70127"
+              data-appns="discoverbing.5060"
+              data-k="5024.1"
+              data-stk=""
+              style="color: black"
+            >
+              <div class="b_overlay" style="color: black">
+                <div
+                  id="slideexp0_F70127chevrons_prevbtn"
+                  class="btn prev ltr rounded bld"
+                  data-dir=""
+                  role="button"
+                  aria-label="Sola kaydırmak için tıklayın"
+                  style="color: black"
+                >
+                  <div class="bg" style="color: black"><span></span></div>
+                  <div class="vcac">
+                    <div
+                      style="
+                        height: 32px;
+                        margin-top: -16px;
+                        background-color: white;
+                      "
+                    >
+                      <div class="cr" style="color: black">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="slideexp0_F70127chevrons_nextbtn"
+                  class="btn next ltr rounded bld"
+                  data-dir=""
+                  role="button"
+                  aria-label="Sağa kaydırmak için tıklayın"
+                >
+                  <div class="bg"><span></span></div>
+                  <div class="vcac">
+                    <div
+                      style="
+                        height: 32px;
+                        margin-top: -16px;
+                        background-color: white;
+                      "
+                    >
+                      <div class="cr">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="b_slidesContainer"
+                  style="overflow: hidden; height: 416px"
+                >
+                  <div
+                    class="b_viewport scrollbar"
+                    nativescrollingenabled="1"
+                    style="
+                      height: 416px;
+                      margin-bottom: -30px;
+                      padding-bottom: 30px;
+                    "
+                  >
+                    <div
+                      class="b_slidebar"
+                      id="slideexp0_F70127"
+                      role="list"
+                      style="margin-left: -205px; height: 408px"
+                    >
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5012.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="left-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_0">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.28fc1449558b32f3f3056ea296139b6a0e3ff7e16ccf096604c65f13a6460a4a_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb6A8E046A"
+                                class="rms_img"
+                                src="/th?id=OCZI.28fc1449558b32f3f3056ea296139b6a0e3ff7e16ccf096604c65f13a6460a4a_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Yeni yürümeye başlayan bir çocuğun komik bulacağı bir şaka yazın"
+                              >Yeni yürümeye başlayan bir çocuğun komik bulacağı
+                              bir şaka yazın</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5013.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="left"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        seen=""
+                      >
+                        <div role="button" id="b_zislide_1">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="https://copilot.microsoft.com/th?id=OSK.m1GiYYaAMe8C2A79I073s5dLs5lvelJhz2pga-LPt8A&w=224&h=260&c=8&qlt=100&pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb176B82CD7"
+                                class="rms_img"
+                                src="https://copilot.microsoft.com/th?id=OSK.m1GiYYaAMe8C2A79I073s5dLs5lvelJhz2pga-LPt8A&w=224&h=260&c=8&qlt=100&pid=PID"
+                                data-bm="4"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Dağlık bir bölgede on günlük bir gezi için yanıma ne almalıyım?"
+                              >Dağlık bir bölgede on günlük bir gezi için yanıma
+                              ne almalıyım?</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5014.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="left-adj"
+                        tabindex="-1"
+                        seen=""
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_2">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="https://copilot.microsoft.com/th?id=OCZI.83133899567c76dc226d9bf8d8cd4a755f63b41988cd7930fcfd14637733cfd1_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb20D2755B8"
+                                class="rms_img"
+                                src="https://copilot.microsoft.com/th?id=OCZI.83133899567c76dc226d9bf8d8cd4a755f63b41988cd7930fcfd14637733cfd1_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                data-bm="5"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Bir kamp ateşinin etrafında toplanmış dost canlısı, tüylü canavarların bir görüntüsünü oluşturun"
+                              ><span
+                                title="Bir kamp ateşinin etrafında toplanmış dost canlısı, tüylü canavarların bir görüntüsünü oluşturun"
+                                >Bir kamp ateşinin etrafında toplanmış dost
+                                canlısı, tüylü canavarların bir görüntüsünü
+                                olu…</span
+                              ></span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5015.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="center"
+                        tabindex="0"
+                        seen=""
+                      >
+                        <div role="button" id="b_zislide_3">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="https://copilot.microsoft.com/th?id=OCZI.07b95f6aadeb3f5db836e7ad04304bcc1851a85fa95965d0e4d2f21ad9c2874f_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb321E9C9DD"
+                                class="rms_img"
+                                src="https://copilot.microsoft.com/th?id=OCZI.07b95f6aadeb3f5db836e7ad04304bcc1851a85fa95965d0e4d2f21ad9c2874f_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                data-bm="6"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="İtalyan ve Japon mutfaklarını birleştiren yeni bir füzyon tarifi icat edin"
+                              >İtalyan ve Japon mutfaklarını birleştiren yeni
+                              bir füzyon tarifi icat edin</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5016.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-adj"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        seen=""
+                      >
+                        <div role="button" id="b_zislide_4">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="https://copilot.microsoft.com/th?id=OCZI.5a870031152a2199cf1eef4dc75cfc5377e35c4a0cedef1e9640c574bd2c0034_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb401E9D9D5"
+                                class="rms_img"
+                                src="https://copilot.microsoft.com/th?id=OCZI.5a870031152a2199cf1eef4dc75cfc5377e35c4a0cedef1e9640c574bd2c0034_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                data-bm="7"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Organizasyon sürecinde hangi eşyaların saklanacağına, bağışlanacağına veya atılacağına nasıl öncelik veriyorsunuz?"
+                              ><span
+                                title="Organizasyon sürecinde hangi eşyaların saklanacağına, bağışlanacağına veya atılacağına nasıl öncelik veriyorsunuz?"
+                                >Organizasyon sürecinde hangi eşyaların
+                                saklanacağına, bağışlanacağına veya
+                                atılacağın…</span
+                              ></span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5017.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_5">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="https://copilot.microsoft.com/th?id=OCZI.165af3387e922ceb2a87e880d52e958819443d0ca70cee3df0500a0a166a2199_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb517563999"
+                                class="rms_img"
+                                src="https://copilot.microsoft.com/th?id=OCZI.165af3387e922ceb2a87e880d52e958819443d0ca70cee3df0500a0a166a2199_20240507012336&w=224&h=260&c=8&qlt=100&pid=PID"
+                                data-bm="8"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Organize ederken, hangi öğeleri saklayacağınıza, bağışlayacağınıza veya atacağınıza nasıl öncelik verirsiniz?"
+                              ><span
+                                title="Organize ederken, hangi öğeleri saklayacağınıza, bağışlayacağınıza veya atacağınıza nasıl öncelik verirsiniz?"
+                                >Organize ederken, hangi öğeleri
+                                saklayacağınıza, bağışlayacağınıza veya
+                                atacağın…</span
+                              ></span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5018.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_6">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.ff14d5ad1f83da102616e2776fa669bc50b383a975a3f802865cc742aa9db566_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb606ADE4F9"
+                                class="rms_img"
+                                src="/th?id=OCZI.ff14d5ad1f83da102616e2776fa669bc50b383a975a3f802865cc742aa9db566_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="9"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="En etkili Caz müzisyenlerinden bazıları kimlerdi?"
+                              >En etkili Caz müzisyenlerinden bazıları
+                              kimlerdi?</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5019.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_7">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.0ccc68a6879d911b76f7a62f3d50214c213ced449eb9504cfb4a4b0f67dbd25b_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb727647707"
+                                class="rms_img"
+                                src="/th?id=OCZI.0ccc68a6879d911b76f7a62f3d50214c213ced449eb9504cfb4a4b0f67dbd25b_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="10"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Günümü aydınlatacak bazı komik tek satırlık sözler nelerdir?"
+                              >Günümü aydınlatacak bazı komik tek satırlık
+                              sözler nelerdir?</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5020.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_8">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.c819fc278bd4db28d1bc298678241d88a9b5a4ae316f097ab9aa57dec78d887e_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb80209544F"
+                                class="rms_img"
+                                src="/th?id=OCZI.c819fc278bd4db28d1bc298678241d88a9b5a4ae316f097ab9aa57dec78d887e_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="11"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Neden bazı bitkiler mevsimlerle renk değiştirir?"
+                              >Neden bazı bitkiler mevsimlerle renk
+                              değiştirir?</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5021.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_9">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.439a9e6d04b1ec224de5438f05b70559685478db331dd7ce753905896fe2188c_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="emb91E98DB9F"
+                                class="rms_img"
+                                src="/th?id=OCZI.439a9e6d04b1ec224de5438f05b70559685478db331dd7ce753905896fe2188c_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="12"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Telefon numarası alanı için gönderilen bir değerin ortak bir biçimde olup olmadığını kontrol etmek için JavaScript kodu yazın"
+                              ><span
+                                title="Telefon numarası alanı için gönderilen bir değerin ortak bir biçimde olup olmadığını kontrol etmek için JavaScript kodu yazın"
+                                >Telefon numarası alanı için gönderilen bir
+                                değerin ortak bir biçimde olup olmadığını
+                                kontrol e…</span
+                              ></span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5022.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_10">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.74fc24c73b83cbf479875f50091dc499afba62996f0bb9618113ea56adc464a1_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="embA0070AB1F"
+                                class="rms_img"
+                                src="/th?id=OCZI.74fc24c73b83cbf479875f50091dc499afba62996f0bb9618113ea56adc464a1_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="13"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Şu anda seyahat edebileceğim güneşli, sıcak bir yer neresi?"
+                              >Şu anda seyahat edebileceğim güneşli, sıcak bir
+                              yer neresi?</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div
+                        class="slide"
+                        data-dataurl=""
+                        data-rinterval=""
+                        data-appns="discoverbing.5060"
+                        data-k="5023.1"
+                        style="width: 196px"
+                        data-mini=""
+                        role="listitem"
+                        pos="right-most"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <div role="button" id="b_zislide_11">
+                          <div class="cimg_cont">
+                            <div
+                              class="cico"
+                              style="width: 224px; height: 260px"
+                            >
+                              <img
+                                height="260"
+                                width="224"
+                                data-src-hq="/th?id=OCZI.7208f6080df53ddc6c14b05332a5f020f18c773877cb586c7893d9fab809eded_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                role="presentation"
+                                data-priority="2"
+                                id="embB47073B72"
+                                class="rms_img"
+                                src="/th?id=OCZI.7208f6080df53ddc6c14b05332a5f020f18c773877cb586c7893d9fab809eded_20240507012336&amp;w=224&amp;h=260&amp;c=8&amp;qlt=100&amp;pid=PID"
+                                data-bm="14"
+                              />
+                            </div>
+                          </div>
+                          <div class="wt_cont">
+                            <span
+                              class="welcome_description"
+                              fulltext="Yaklaşan bir iş görüşmesinde bazı sahte sorularla bana koçluk yapın"
+                              >Yaklaşan bir iş görüşmesinde bazı sahte sorularla
+                              bana koçluk yapın</span
+                            >
+                          </div>
+                        </div>
+                        <div class="slide_mask b_canvas" style="opacity: 0">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" data-bing-script="1">
+          //<![CDATA[
+          var Lib;
+          (function (n) {
+            var t;
+            (function (n) {
+              function t(n) {
+                return n && n.classList;
+              }
+              function i(n, i) {
+                t(n) && n.classList.add(i);
+              }
+              function r(n, i) {
+                t(n) && n.classList.remove(i);
+              }
+              function u(n, i) {
+                t(n) && n.classList.toggle(i);
+              }
+              function f(n, i) {
+                return t(n) && n.classList.contains(i);
+              }
+              function e(n, t) {
+                return n.getElementsByClassName
+                  ? n.getElementsByClassName(t)
+                  : null;
+              }
+              function o(n) {
+                return n instanceof SVGElement
+                  ? n.getAttribute("class")
+                  : n.className;
+              }
+              n.add = i;
+              n.remove = r;
+              n.toggle = u;
+              n.contains = f;
+              n.getElementByClassName = e;
+              n.getClassAttribute = o;
+            })((t = n.CssClass || (n.CssClass = {})));
+          })(Lib || (Lib = {}));
+          0;
+          var AjaxRequestProcessor;
+          (function (n) {
+            function i(n, i, r, u, f, e) {
+              var o, s, h;
+              if ((e === void 0 && (e = 0), n)) {
+                if (((o = sj_gx()), !o)) {
+                  u && u(t.xhr, 0);
+                  return;
+                }
+                s = "&darkschemeovr=1";
+                _w.location.href.indexOf(s) != -1 &&
+                  n.indexOf(s) == -1 &&
+                  (n += s);
+                o.open(i ? "POST" : "GET", n, !0);
+                h = null;
+                e > 0 &&
+                  (h = sb_st(function () {
+                    o && o.abort();
+                  }, e));
+                o.onreadystatechange = function () {
+                  var n = o;
+                  if (o != null && o.readyState === 4) {
+                    o = null;
+                    sb_ct(h);
+                    var i = n.status,
+                      r = !n.getAllResponseHeaders(),
+                      e = 200 === i && n.responseText;
+                    e
+                      ? f && f(n.responseText)
+                      : u && u(r ? t.timeout : t.misc, i);
+                  }
+                };
+                o.send(i);
+                r && r();
+              }
+            }
+            var t = { timeout: "timeout", xhr: "xhr", misc: "" };
+            n.SendRequest = i;
+          })(AjaxRequestProcessor || (AjaxRequestProcessor = {}));
+          var WireUp, WireConnector, SignalConnector;
+          (function (n) {
+            function f(n) {
+              var u = [],
+                f,
+                t,
+                i,
+                r,
+                e;
+              if (!n) return u;
+              for (f = n.split(","), t = 0; t < f.length; ++t)
+                ((i = f[t]), i && 0 !== i.length) &&
+                  ((r = i.split("/")),
+                  (e = { ci: r[0], cp: r[1], ct: r[2] }),
+                  u.push(e));
+              return u;
+            }
+            function e(n) {
+              var t = n.split(";");
+              return { type: t[0], name: t[1], cons: f(t[2]) };
+            }
+            function o(n) {
+              for (
+                var t,
+                  r,
+                  u = { eps: {}, w: !1, id: "" },
+                  f = n.split("|"),
+                  i = 0;
+                i < f.length;
+                ++i
+              )
+                (t = f[i]),
+                  t && t.length > 0 && ((r = e(t)), (u.eps[r.name] = r));
+              return u;
+            }
+            function s(n, t) {
+              for (
+                var u = null,
+                  o = _d.querySelectorAll,
+                  r,
+                  f,
+                  e,
+                  u = o
+                    ? o.call(_d, "[" + n + "]")
+                    : _d.getElementsByTagName("*"),
+                  i = 0;
+                i < u.length;
+                i++
+              )
+                (r = u[i]),
+                  (f = r.getAttribute),
+                  f && ((e = f.call(r, n)), e && t(r, e));
+            }
+            function h(n, i, r, u) {
+              if (t.cis[i]) {
+                u.nodeHandler && u.nodeHandler(i, n, r, t.cis[i]);
+                return;
+              }
+              t.cis[i] = {};
+              u.logicHandler(i, t.cis[i]);
+              u.nodeHandler && u.nodeHandler(i, n, r, t.cis[i]);
+            }
+            function c() {
+              t = { nc: 0, nodes: {}, chs: {}, ihs: {}, cis: {} };
+              n.g = t;
+            }
+            function i() {
+              var r = "data-wire",
+                n,
+                i;
+              s(r, function (n, i) {
+                n.id || (n.id = "wire" + t.nc++);
+                var u = o(i);
+                u.id = n.id;
+                t.nodes[n.id] = u;
+                n.removeAttribute(r);
+              });
+              for (n in t.nodes)
+                t.nodes.hasOwnProperty(n) && ((i = t.nodes[n]), i.w || l(i));
+            }
+            function l(n) {
+              var u, t, e, o, i, f;
+              if (n && n.eps && ((u = _ge(n.id)), u)) {
+                t = n.eps;
+                e = !0;
+                for (i in t)
+                  t.hasOwnProperty(i) &&
+                    ((f = t[i]), (o = r(u, f, !0)), o || (e = !1));
+                if (e) {
+                  for (i in t) t.hasOwnProperty(i) && ((f = t[i]), r(u, f, !1));
+                  n.w = !0;
+                }
+              }
+            }
+            function r(n, i, r) {
+              var e, o, u, f;
+              if (!i) return !1;
+              if (i.type === "I") {
+                if (((e = t.ihs[i.name]), r)) return e && !0;
+                e && e(n);
+              }
+              if (i.type === "F" || i.type === "B")
+                for (o = 0; o < i.cons.length; ++o)
+                  if (((u = i.cons[o]), u.cp && u.ct)) {
+                    if (((f = t.chs[u.ct]), f && h(n, u.ci, u.cp, f), r))
+                      return f && !0;
+                    if (!f) throw "" + u.ct + " not registered";
+                  }
+              return !0;
+            }
+            function a(n, r) {
+              t.ihs[n] = r;
+              i();
+            }
+            function u(n, i, r) {
+              var s = n && t.nodes[n.id],
+                e,
+                o,
+                u,
+                f,
+                h;
+              if (s && ((e = s.eps), e) && ((o = e[i]), o) && ((u = o.cons), u))
+                for (f = 0; f < u.length; ++f) (h = u[f]), r(h);
+            }
+            function v(n, t, i) {
+              n &&
+                u(n, t, function (t) {
+                  sj_evt.fire(t.ci + "_" + t.cp, n, null, i);
+                });
+            }
+            function y(n, t, i) {
+              n &&
+                u(n, t, function (t) {
+                  sj_evt.bind(t.ci + "_" + t.cp, function (t) {
+                    var u = t[1],
+                      r = t[2],
+                      f = t[3];
+                    (r && r.id !== n.id) || i(n, u, r, f);
+                  });
+                });
+            }
+            function p(n, r, u) {
+              u === void 0 && (u = null);
+              t.chs[n] = { logicHandler: r, nodeHandler: u };
+              i();
+            }
+            var t = n.g || { nc: 0, nodes: {}, chs: {}, ihs: {}, cis: {} };
+            n.g = t;
+            n.init = a;
+            n.setValue = v;
+            n.onUpdate = y;
+            n.register = p;
+            sj_evt.bind("unload", c, !0);
+            sj_evt.bind("onP1", i, !0);
+          })(WireUp || (WireUp = {})),
+            (function () {
+              WireUp.register("wire", function (n) {
+                sj_evt.bind(n + "_i", function (t) {
+                  var i = t[1],
+                    u = t[2],
+                    r = t[3];
+                  sj_evt.fire(n + "_o", i, null, r);
+                });
+              });
+            })(WireConnector || (WireConnector = {})),
+            (function () {
+              WireUp.register("signal", function (n) {
+                sj_evt.bind(n + "_i", function (t) {
+                  var i = t[1],
+                    r = t[2],
+                    u = t[3];
+                  sj_evt.fire(n + "_o", i, null, !0);
+                });
+              });
+            })(SignalConnector || (SignalConnector = {}));
+          var AccessibilityHelpers;
+          (function (n) {
+            function f(n) {
+              var r = i(n, !1, t);
+              r != null && r.focus();
+            }
+            function i(n, i, r) {
+              var e, o, s, u, c, f, h;
+              if (
+                (i === void 0 && (i = !1),
+                r === void 0 && (r = t),
+                (e = null),
+                n && n.querySelectorAll)
+              )
+                for (o = n.querySelectorAll(r), s = o.length, u = 0; u < s; u++)
+                  if (
+                    ((c = i ? s - 1 - u : u),
+                    (f = o.item(c)),
+                    f &&
+                      f.tabIndex != -1 &&
+                      ((h = window.getComputedStyle(f)),
+                      h.display != "none" && h.visibility != "hidden"))
+                  ) {
+                    e = f;
+                    break;
+                  }
+              return e;
+            }
+            function e(n) {
+              var i = r(n, t);
+              i != null && i.focus();
+            }
+            function r(n, i) {
+              var o, s, u, f, e, r, h, c;
+              if (
+                (i === void 0 && (i = t), (o = null), _d.querySelectorAll && n)
+              ) {
+                for (
+                  s = _d.querySelectorAll(i), u = [], r = 0;
+                  r < s.length;
+                  r++
+                )
+                  (f = s.item(r)), f && f.tabIndex != -1 && u.push(f);
+                if (
+                  ((e = u.indexOf(n)),
+                  typeof sj_log != "undefined" &&
+                    sj_log(
+                      "CI.MoveFocus",
+                      "Next",
+                      _d.activeElement.tagName + " " + e.toString()
+                    ),
+                  e != -1)
+                )
+                  for (r = 0; r < u.length; r++)
+                    if (
+                      ((h = u[(e + r + 1) % u.length]),
+                      (c = window.getComputedStyle(h)),
+                      c.display != "none" && c.visibility != "hidden")
+                    ) {
+                      o = h;
+                      break;
+                    }
+              }
+              return o;
+            }
+            function o(n, t, i) {
+              u(n, t, i, !1);
+            }
+            function u(n, t, i, r) {
+              n &&
+                t &&
+                typeof t.length == "number" &&
+                i &&
+                typeof i == "function" &&
+                (sj_be(n, "keydown", function (n) {
+                  for (
+                    var r = n.keyCode ? n.keyCode : n.charCode, i = 0;
+                    i < t.length;
+                    i++
+                  )
+                    if (r === t[i]) {
+                      sj_pd(n);
+                      break;
+                    }
+                }),
+                sj_be(n, "keyup", function (n) {
+                  for (
+                    var f = n.keyCode ? n.keyCode : n.charCode, u = 0;
+                    u < t.length;
+                    u++
+                  )
+                    if (f === t[u]) {
+                      r ? i(n) : i();
+                      sj_pd(n);
+                      break;
+                    }
+                }));
+            }
+            function s(n) {
+              for (var i = [n], t, r; i.length; )
+                if (
+                  ((t = i.pop()),
+                  t &&
+                    t.children &&
+                    ["svg", "SVG-ICON"].indexOf(t.tagName) === -1)
+                )
+                  for (
+                    ["A", "BUTTON"].indexOf(t.tagName) !== -1 &&
+                      t.setAttribute("aria-disabled", "true"),
+                      t.shadowRoot && i.push(t.shadowRoot),
+                      r = 0;
+                    r < t.children.length;
+                    r++
+                  )
+                    i.push(t.children[r]);
+            }
+            function h(n) {
+              return new Promise(function (t, i) {
+                setTimeout(function () {
+                  try {
+                    s(n);
+                    t();
+                  } catch (r) {
+                    i(r);
+                  }
+                }, 500);
+              });
+            }
+            var t = "a[href], body, input, select, [tabindex]";
+            n.focusFirstFocusableElementWithin = f;
+            n.getFocusableElementWithin = i;
+            n.focusNextFocusableElement = e;
+            n.getNextFocusableElement = r;
+            n.activateButtonByKey = o;
+            n.activateButtonByKeyWithEvent = u;
+            n.disableAllLinksInElementAsync = h;
+          })(AccessibilityHelpers || (AccessibilityHelpers = {}));
+          var SlideExpansionData = { enableBodyWidthOverride: true };
+          //]]>
+        </script>
+        <script
+          type="text/javascript"
+          src="/rs/6S/t6/jnc,nj/2RFgnacsz6nPw9vvxd8AGFyaQr8.js"
+          crossorigin="anonymous"
+        ></script>
+        <script type="text/javascript" data-bing-script="1">
+          //<![CDATA[
+          sj_evt.bind(
+            "chevrons_init",
+            function () {
+              if (typeof Chevrons_GradientChevronCF != "undefined") {
+                Chevrons_GradientChevronCF.init(
+                  "slideexp0_F70127",
+                  _ge("slideexp0_F70127chevrons_prevbtn"),
+                  _ge("slideexp0_F70127chevrons_nextbtn"),
+                  false
+                );
+              } else if (typeof Chevrons_ProminentChevronSepar != "undefined") {
+                Chevrons_ProminentChevronSepar.init(
+                  "slideexp0_F70127",
+                  _ge("slideexp0_F70127chevrons_prevbtn"),
+                  _ge("slideexp0_F70127chevrons_nextbtn"),
+                  false,
+                  true
+                );
+              } else if (typeof Chevrons_FaultInjection != "undefined") {
+                Chevrons_FaultInjection.init(
+                  "slideexp0_F70127",
+                  _ge("slideexp0_F70127chevrons_prevbtn"),
+                  _ge("slideexp0_F70127chevrons_nextbtn"),
+                  false,
+                  true
+                );
+              } else {
+                Chevrons.init(
+                  "slideexp0_F70127",
+                  _ge("slideexp0_F70127chevrons_prevbtn"),
+                  _ge("slideexp0_F70127chevrons_nextbtn"),
+                  false,
+                  true,
+                  "slideexp0_F70127chevrons"
+                );
+              }
+            },
+            1
+          );
+          (function () {
+            function InitSlide() {
+              var params = [
+                "0_F70127",
+                "slideexp0_F70127",
+                0,
+                true,
+                12,
+                "Şu anda bu sayfa hakkında daha fazla bilgi bulamıyoruz",
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                -1,
+                false,
+                true,
+                true,
+                false,
+                false,
+                3,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                true,
+              ];
+              if (typeof SmartRendering !== "undefined") {
+                SmartRendering.LoadElementWhenDisplayed(
+                  this,
+                  _ge("slideexp0_F70127"),
+                  SlideExperience.init,
+                  params
+                );
+              } else {
+                SlideExperience.init.apply(this, params);
+              }
+              sj_evt.unbind("slideexperience_init", InitSlide);
+            }
+            sj_evt.bind("slideexperience_init", InitSlide, 1);
+          })();
+          _w.rms.js(
+            {
+              "A:rms:answers:Shared:AjaxDataLoader":
+                "https:\/\/r.bing.com\/rp\/t5vZ9VqTO-Sl4hN969ySbvZgV0g.br.js",
+            },
+            {
+              "A:rms:answers:Shared:Pager":
+                "https:\/\/r.bing.com\/rp\/RvRBoZ5KQDNHwbHfo-_ZBZIoYQo.br.js",
+            },
+            {
+              "A:rms:answers:Shared:Chevrons":
+                "https:\/\/r.bing.com\/rp\/lcj8996lLPHohM7LK16sWWtGSzE.br.js",
+            },
+            {
+              "A:rms:answers:Shared:Swipe":
+                "https:\/\/r.bing.com\/rp\/2pI-3yxS71qnL6vzhVIltDQouTg.br.js",
+            },
+            {
+              "A:rms:answers:Shared:Orientation":
+                "https:\/\/r.bing.com\/rp\/wNhUjm3kl_kvyfrio44J6j1zdYo.br.js",
+            },
+            {
+              "A:rms:answers:Shared:SlideExperience":
+                "https:\/\/r.bing.com\/rp\/bGGMgLQKrBqF0e1Gl4gVARrbZSE.br.js",
+            }
+          );
+          //]]>
+        </script>
+      </div>
+
+      <!-- PREVIEW  -->
+      <div class="px-5 py-5" style="margin-bottom: 10%">
+        <div class="preview col-lg-12">
+          <div
+            class="d-flex flex-row align-items-center justify-content-center"
+          >
+            <div class="">
+              <span
+                >Copilot, yapay zeka kullanıyor. Hataları kontrol edin.</span
+              >
+            </div>
+            <div class="px-1">
+              <a href="" class="">Koşullar</a>
+              <span>|</span>
+              <a href="" style="text-decoration: none">Gizlilik</a>
+              <span>|</span>
+              <a href="" style="text-decoration: none">SSS</a>
+            </div>
+            <a
+              href=""
+              class="copilot-btn p-1"
+              style="border: 1px solid blue; border-radius: 100px"
+              type="button"
+            >
+              Copilot Pro'yu dene</a
+            >
+          </div>
+          <div
+            class="fs-6 d-flex align-items-center justify-content-center mt-4"
+          >
+            <span class="" style="color: rgb(55, 53, 53)"
+              >Konuşma stili seçin</span
+            >
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center mb-5 mt-3"
+          >
+            <div
+              class="btn-group p-1 rounded"
+              role="group"
+              aria-label="Basic radio toggle button group"
+              style="border: 1px solid rgb(190, 190, 190)"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio1"
+                autocomplete="off"
+              />
+              <label class="btn rounded btnradio1 px-2" for="btnradio1"
+                ><span class="fs-7">Daha</span><br /><span class="fs-8"
+                  >Yaratıcı</span
+                ></label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio2"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn rounded btnradio2 px-2" for="btnradio2"
+                ><span class="fs-7">Daha</span><br /><span class="fs-8"
+                  >Dengeli</span
+                ></label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio3"
+                autocomplete="off"
+              />
+              <label class="btn rounded btnradio3 px-2" for="btnradio3"
+                ><span class="fs-7">Daha</span><br /><span class="fs-8"
+                  >Duyarlı</span
+                ></label
+              >
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row align-items-center justify-content-center mb-5 mt-3 fs-6 px-5"
+            id="loginBtn"
+          >
+            <a class="login-btn px-2" href="">Oturum açın</a>
+            <span class="px-2"
+              >daha fazla soru sormak ve daha uzun konuşmalar yapmak için</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div
+        class="bg-light footer fixed-bottom d-flex flex-row align-items-center justify-content-center col-lg-9"
+      >
+        <a
+          class="mx-2"
+          href=""
+          style="
+            width: 10%;
+            text-decoration: none;
+            color: white;
+            border-radius: 100px;
+            background-image: linear-gradient(rgb(98, 98, 253), blue);
+            padding: 1%;
+            margin-top: -5%;
+          "
+          >Yeni konu</a
+        >
+        <div class="form-group col-lg-6 mb-5">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Bana istediğini sor..."
+          >
+          </textarea>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
