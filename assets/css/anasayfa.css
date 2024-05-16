@@ -57,7 +57,7 @@ li.nav-item > a {
   left: auto;
   right: calc(40%);
 }
-.bi { background-color: black;}
+/* .bi { background-color: black;} */
 .carousel-inner {overflow: visible;}
   
   
